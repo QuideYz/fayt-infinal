@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğayı Koru - Yeşil Gelecek</title>
+    <style>
+        :root {
+            --primary: #2ecc71;
+            --secondary: #27ae60;
+            --accent: #e74c3c;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 18px;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.8;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        nav {
+            background-color: var(--dark);
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin: 0;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-top: 0;
+        }
+        
+        .nature-image {
+            width: 100%;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .back-to-top {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .back-to-top a {
+            background: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .back-to-top a:hover {
+            background: var(--secondary);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        /* İletişim Formu Stilleri */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+        }
+        
+        button[type="submit"] {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        button[type="submit"]:hover {
+            background: var(--secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DOĞAYI KORU</h1>
+        <p>Gelecek için harekete geç</p>
+    </header>
+
+    <nav>
+        <a href="#neden-korumaliyiz">Neden Korunmalı?</a>
+        <a href="#kuresel-isinma">Küresel Isınma</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+
+    <div class="container">
+        <section id="neden-korumaliyiz">
+            <h2>NEDEN DOĞAYI KORUMALIYIZ?</h2>
+            
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                 alt="Doğa manzarası" class="nature-image">
+            
+            <p>Doğa, tüm canlıların yaşam kaynağıdır. Temiz hava, su ve verimli topraklar olmadan yaşamımızı sürdürmemiz mümkün değildir.</p>
+            
+            <h3>DOĞA KORUMANIN ÖNEMİ:</h3>
+            <ul>
+                <li>Biyolojik çeşitliliği korur</li>
+                <li>İklim değişikliğini yavaşlatır</li>
+                <li>Gelecek nesillere yaşanabilir bir dünya bırakırız</li>
+            </ul>
+            
+            <div class="back-to-top">
+                <a href="#">YUKARI ÇIK</a>
+            </div>
+        </section>
+
+        <section id="kuresel-isinma">
+            <h2>KÜRESEL ISINMA</h2>
+            
+            <img src="https://images.unsplash.com/photo-1615872325002-8d3c7a49a581?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                 alt="Küresel ısınma etkileri" class="nature-image">
+            
+            <h3>ETKİLERİ:</h3>
+            <ul>
+                <li>Buzulların erimesi</li>
+                <li>Aşırı hava olayları</li>
+                <li>Tarım alanlarının azalması</li>
+            </ul>
+            
+            <h3>ÇÖZÜMLER:</h3>
+            <ol>
+                <li>Enerji tasarrufu yapın</li>
+                <li>Toplu taşıma kullanın</li>
+                <li>Geri dönüşüme önem verin</li>
+            </ol>
+            
+            <div class="back-to-top">
+                <a href="#">YUKARI ÇIK</a>
+            </div>
+        </section>
+
+        <section id="iletisim">
+            <h2>BİZE ULAŞIN</h2>
+            
+            <form>
+                <div class="form-group">
+                    <label for="name">Adınız Soyadınız</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-posta Adresiniz</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mesajınız</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit">GÖNDER</button>
+            </form>
+            
+            <div class="back-to-top">
+                <a href="#">YUKARI ÇIK</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p><strong>DOĞA KORUMA PLATFORMU</strong></p>
+        <p>© 2023 Tüm Hakları Saklıdır</p>
+    </footer>
+
+    <script>
+        // YUKARI ÇIK BUTONU
+        document.querySelectorAll('.back-to-top a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // NAVİGASYON BAĞLANTILARI
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // FORM GÖNDERİMİ
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mesajınız gönderildi! Teşekkür ederiz.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
